@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accesibilty</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body class="container">
+  <h1>Accesibilty</h1>
+
+  <section aria-label="Focus testing" class="inputs">
+    <!-- <h2>Focus testing</h2> -->
+    <input type="text" placeholder="Name">
+
+    <input type="text" placeholder="Email">
+
+    <button onclick="alert('paspaudei mygtuka')">Click me</button>
+
+    <i onclick="alert('paspaudei')" tabindex="0" role="button" class="fa icon-btn fa-birthday-cake"
+      aria-hidden="true"></i>
+
+    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+  </section>
+</body>
+
+</html>
